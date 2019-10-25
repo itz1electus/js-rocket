@@ -1,0 +1,16 @@
+body{
+	background-color: grey;
+}
+
+.cool{
+	visibility: hidden;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	transiton: background-color 10s;
+}
+
+.cool.red{
+	visibility: visible;
+	background-color: red;
+}
